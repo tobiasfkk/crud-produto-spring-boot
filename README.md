@@ -4,7 +4,7 @@ Esta é uma aplicação Spring Boot para gerenciamento de produtos. Inclui opera
 
 ### Clone o repositório:
   
-    git clone https://github.com/seu-usuario/spring-boot-produto-teste.git
+    git clone https://github.com/tobiasfkk/crud-produto-spring-boot.git
   
 Ao executar, a aplicação será iniciada em `http://localhost:8080`.
 
