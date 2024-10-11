@@ -8,6 +8,8 @@ Esta é uma aplicação Spring Boot para gerenciamento de produtos. Inclui opera
   
 Ao executar, a aplicação será iniciada em `http://localhost:8080`.
 
+Edite o arquivo application.properties com URL, USUÁRIO e SENHA da sua base de dados `src/main/resources/application.properties`.
+
 ## Endpoints da API
 
 ### Criar um novo produto
