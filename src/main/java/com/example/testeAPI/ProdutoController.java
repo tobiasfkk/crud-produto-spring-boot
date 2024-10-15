@@ -66,4 +66,10 @@ public class ProdutoController {
             return ResponseEntity.notFound().build();
         }
     }
+
+    @GetMapping("/returnAllProdutos")
+    public ResponseEntity<Iterable<Produto>> returnProdutos() {
+        Iterable<Produto> produtos = produtoRepository.findAll();
+        return ResponseEntity.ok(produtos);
+    }
 }
